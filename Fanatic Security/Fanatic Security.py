@@ -8,7 +8,7 @@ import asyncio
 import re
 from collections import defaultdict
 
-TOKEN = ""
+TOKEN = os.environ.get("DISCORD_TOKEN")
 
 GUILD_ID = 1513108386722480211
 LOG_CHANNEL = 1513141801806987356
