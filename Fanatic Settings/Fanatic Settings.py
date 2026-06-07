@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 import asyncio
 
-TOKEN = ""
+TOKEN = os.environ.get("DISCORD_TOKEN")
 
 GUILD_ID = 1513108386722480211
 ROLE_MEMBRE = 1513113125883216032
