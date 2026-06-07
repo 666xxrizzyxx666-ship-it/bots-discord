@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: fanatic-security
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Fanatic_Security.py
